@@ -98,12 +98,8 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 
 * `59` #Docler Docler Holding Docler
 * `92` Magento (Adobe) Magento Magento
+* `93` SymfonyCasts SymfonyCasts SymfonyCasts
 
 ## Missing from elephpant.me
 
 * `2020-09-06-white-symfonycasts` Symfonycasts SymfonyCasts
-
-## Photos missing from A Field Guide to elePHPants
-
-* `2025-03-21-purple-datadog` Datadog Datadog
-* `2025-09-02-yellow-franekphp` FrankenPHP Les-Tilleuls.coop
