@@ -56,6 +56,7 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 | `2019-11-21-white-phpconjapan` PHPCON Japan PHPCON Japan | `47` PHPCon PHP Conference Japan PHP Conference Japan 2019 |
 | `2020-04-21-white-sylius` Sylius Monsieur Biz Sylius eCommerce | `90` Sylius (Blue - Error) Monsieur Biz Sylius eCommerce<br>`91` Sylius (Green - Official) Monsieur Biz Sylius eCommerce |
 | `2020-05-25-black-upinside` Upinside Upinside | `54` Upinside Upinside School Upinside School |
+| `2020-09-06-white-symfonycasts` Symfonycasts SymfonyCasts | `93` SymfonyCasts SymfonyCasts SymfonyCasts |
 | `2020-09-14-blue-confoo` ConFoo ConFoo | `56` The Joker ConFoo.ca Le foo du roi: "The Joker" |
 | `2020-09-18-multicolored-phpday` phpday GrUSP/phpday | `58` Aida GrUSP phpday conference mascotte |
 | `2020-10-23-gray-symfony` Symfony Sensio Labs | `57` Symfony 15 Years Sensio Labs Symfony Framework 15 Years |
@@ -98,8 +99,3 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 
 * `59` #Docler Docler Holding Docler
 * `92` Magento (Adobe) Magento Magento
-* `93` SymfonyCasts SymfonyCasts SymfonyCasts
-
-## Missing from elephpant.me
-
-* `2020-09-06-white-symfonycasts` Symfonycasts SymfonyCasts
