@@ -38,7 +38,7 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 | `2017-06-11-yellow-cakesf` CakePHP CakePHP | `30` CakeSF CakePHP Cake Software Foundation |
 | `2017-09-22-denim-zen` Zend Rogue Wave Software | `11` Denim Rogue Wave Software ZendCon 2017 |
 | `2017-10-06-purple-heroku` Heroku Heroku | `31` Hero Heroku Heroku |
-| `2017-10-12-gray-magento` Magento Magento | `32` Magento Magento Magento |
+| `2017-10-12-gray-magento` Magento Magento | `32` Magento Magento Magento<br>`92` Magento (Adobe) Magento Magento |
 | `2018-04-14-php-yorkshire` PHP Yorkshire PHP Yorkshire conference | `33` Jorvik PHP Yorkshire Conference PHP Yorkshire |
 | `2018-05-30-purple-php-roundtable` PHP Roundtable PHP Roundtable Podcast | `34` Pollita PHP Roundtable Podcast PHP Roundtable |
 | `2018-10-15-blue-zendcon` Zend Rogue Wave Software | `12` Zoe Rogue Wave Software ZendCon 2018 |
@@ -98,4 +98,3 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 ## Missing from A Field Guide to elePHPants
 
 * `59` #Docler Docler Holding Docler
-* `92` Magento (Adobe) Magento Magento
