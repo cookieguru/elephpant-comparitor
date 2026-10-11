@@ -53,7 +53,11 @@ function formatFieldGuide(string $species, ?stdClass $entry) : string {
 }
 
 function formatElephpantMe(stdClass $entry) : string {
-	return sprintf('`%s` %s %s %s', $entry->id, $entry->name ?? '', $entry->sponsor ?? '', $entry->description ?? '');
+	$name = $entry->name ?? '';
+	if(!empty($entry->format) && $entry->format == 'large') {
+		$name = ucfirst($entry->format) . " $name";
+	}
+	return sprintf('`%s` %s %s %s', $entry->id, $name, $entry->sponsor ?? '', $entry->description ?? '');
 }
 
 function escapePipe(string $value) : string {
@@ -173,6 +177,7 @@ if(count($missingElephpantMe)) {
 	foreach($missingElephpantMe as $species => $entry) {
 		$readme[] = '* ' . formatFieldGuide($species, $entry);
 	}
+	$readme[] = '';
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
@@ -187,6 +192,56 @@ if(count($missingPhotos)) {
 	foreach($missingPhotos as $species => $entry) {
 		$readme[] = '* ' . formatFieldGuide($species, $entry);
 	}
+	$readme[] = '';
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$readme[] = '## Large and Small correlation';
+$readme[] = '';
+
+$readme[] = '| Large | Small |';
+$readme[] = '| ----- | ----- |';
+foreach($correlations->small_and_large ?? [] as $small => $large) {
+	if($large === false) {
+		$readme[] = '| none | ' . formatElephpantMe($meById[$small]) . ' |';
+	} elseif($large === null) {
+		$readme[] = '| _unknown_ | ' . formatElephpantMe($meById[$small]) . ' |';
+	} else {
+		$readme[] = '| ' . formatElephpantMe($meById[$large] ?? new stdClass()) . ' | ' . formatElephpantMe($meById[$small]) . ' |';
+	}
+}
+$readme[] = '';
+
+$mappedLargeAndSmall = [
+		...(array)$correlations->small_and_large ?? [],
+		...array_keys((array)$correlations->small_and_large ?? []),
+];
+if(count($mappedLargeAndSmall) < count($meById)) {
+	$readme[] = '';
+	$readme[] = 'Unknown:';
+	foreach($meById as $id => $elephpant) {
+		if(in_array($id, $mappedLargeAndSmall)) {
+			continue;
+		}
+		$readme[] = '* ' . formatElephpantMe($elephpant);
+	}
+}
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+$unaccounted = [];
+foreach($elephpantMe as $entry) {
+	if($entry->format != 'large') {
+		continue;
+	}
+	if(!in_array((int)$entry->id, get_object_vars($correlations->small_and_large ?? new stdClass()), true)) {
+		$unaccounted[] = ' * ' . formatElephpantMe($entry);
+	}
+}
+if(count($unaccounted)) {
+	$readme[] = '## Larges unaccounted for';
+	$readme = [...$readme, '', ...$unaccounted, ''];
 }
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////

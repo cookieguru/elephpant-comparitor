@@ -1,80 +1,101 @@
 {
 	"correlations": {
 		"2007-12-00-blue-original": [
-			1
+			1,
+			94
 		],
 		"2008-03-12-blue-oracle": [
-			5
+			5,
+			98
 		],
 		"2010-11-01-blue-zen": [
-			6
+			6,
+			99
 		],
 		"2011-10-00-pink-original": [
-			2
+			2,
+			95
 		],
 		"2012-09-00-green-zf2": [
-			13
+			13,
+			105
 		],
 		"2013-10-07-red-chili": [
-			7
+			7,
+			100
 		],
 		"2014-01-16-orange-phparch": [
 			14,
-			68
+			68,
+			106
 		],
 		"2014-02-06-purple-phpwomen": [
-			15
+			15,
+			107
 		],
 		"2014-02-06-yellow-sunshinephp": [
 			16
 		],
 		"2014-09-05-red-laravel": [
-			18
+			18,
+			109
 		],
 		"2014-10-28-blue-zray": [
 			8
 		],
 		"2014-11-27-black-amsterdamphp": [
-			19
+			19,
+			110
 		],
 		"2015-03-05-white-confoo": [
-			20
+			20,
+			111
 		],
 		"2015-06-02-brown-truenorthphp": [
-			37
+			37,
+			118
 		],
 		"2015-06-19-blue-opengoodies": [
-			3
+			3,
+			96
 		],
 		"2015-06-19-pink-opengoodies": [
-			4
+			4,
+			97
 		],
 		"2015-09-11-gray-hack": [
 			38
 		],
 		"2015-10-19-teal-zen": [
-			9
+			9,
+			101
 		],
 		"2015-11-06-black-symfony-10-years": [
 			21
 		],
 		"2016-01-01-black-symfony": [
-			22
+			22,
+			112
 		],
 		"2016-02-19-blue-shopware": [
-			23
+			23,
+			113
 		],
 		"2016-06-02-white-globalis": [
-			24
+			24,
+			114
 		],
 		"2016-06-24-white-dpc": [
-			25
+			25,
+			115
 		],
 		"2016-10-18-white-zen": [
-			10
+			10,
+			102
 		],
 		"2016-10-27-multicolored-phpdiversity": [
-			26
+			26,
+			116
 		],
 		"2017-02-02-gray-roave": [
 			27
@@ -95,7 +116,8 @@
 			30
 		],
 		"2017-09-22-denim-zen": [
-			11
+			11,
+			103
 		],
 		"2017-10-06-purple-heroku": [
 			31
@@ -111,16 +133,19 @@
 			34
 		],
 		"2018-10-15-blue-zendcon": [
-			12
+			12,
+			104
 		],
 		"2019-01-07-blue-php-classes": [
 			41
 		],
 		"2019-01-25-white-phpbenelux": [
-			35
+			35,
+			117
 		],
 		"2019-02-07-yellow-sunshinephp-nexmo": [
-			17
+			17,
+			108
 		],
 		"2019-02-18-white-phpers": [
 			39
@@ -144,14 +169,17 @@
 			45
 		],
 		"2019-11-15-gray-symfony": [
-			46
+			46,
+			123
 		],
 		"2019-11-21-white-phpconjapan": [
-			47
+			47,
+			119
 		],
 		"2020-04-21-white-sylius": [
 			90,
-			91
+			91,
+			122
 		],
 		"2020-05-25-black-upinside": [
 			54
@@ -160,13 +188,15 @@
 			93
 		],
 		"2020-09-14-blue-confoo": [
-			56
+			56,
+			126
 		],
 		"2020-09-18-multicolored-phpday": [
 			58
 		],
 		"2020-10-23-gray-symfony": [
-			57
+			57,
+			124
 		],
 		"2020-11-26-siteground-elephpant": [
 			61
@@ -181,13 +211,15 @@
 			63
 		],
 		"2021-10-15-black-mollie": [
-			65
+			65,
+			128
 		],
 		"2021-12-13-orange-thelia": [
 			67
 		],
 		"2022-04-12-white-karafun": [
-			66
+			66,
+			120
 		],
 		"2022-05-07-red-blue-officepartner": [
 			64
@@ -211,7 +243,8 @@
 			74
 		],
 		"2023-11-09-blue-dyflexis": [
-			76
+			76,
+			121
 		],
 		"2024-01-219-blue-phpuk-conference": [
 			78
@@ -239,7 +272,8 @@
 			84
 		],
 		"2025-09-02-yellow-franekphp": [
-			85
+			85,
+			125
 		],
 		"2026-05-19-yellow-phptek": [
 			88
@@ -248,7 +282,8 @@
 			87
 		],
 		"2026-blue-tideways": [
-			86
+			86,
+			127
 		]
 	},
 	"fieldguide_only": {
@@ -273,5 +308,95 @@
 			"reason": "Unlicensed",
 			"source": "https://github.com/philipsharp/afieldguidetoelephpants/pull/58#issuecomment-366420465"
 		}
+	},
+	"small_and_large": {
+		"1": 94,
+		"2": 95,
+		"3": 96,
+		"4": 97,
+		"5": 98,
+		"6": 99,
+		"7" :100,
+		"8": false,
+		"9": 101,
+		"10": 102,
+		"11": 103,
+		"12": 104,
+		"13": 105,
+		"14": 106,
+		"15": 107,
+		"16": null,
+		"17": 108,
+		"18": 109,
+		"19": 110,
+		"20": 111,
+		"21": null,
+		"22": 112,
+		"23": 113,
+		"24": 114,
+		"25": 115,
+		"26": 116,
+		"27": null,
+		"28": null,
+		"29": null,
+		"30": null,
+		"31": null,
+		"32": null,
+		"33": null,
+		"34": null,
+		"35": 117,
+		"36": false,
+		"37": 118,
+		"38": null,
+		"39": null,
+		"40": false,
+		"41": false,
+		"42": null,
+		"43": null,
+		"44": null,
+		"45": false,
+		"46": 123,
+		"47": 119,
+		"48": null,
+		"49": null,
+		"50": null,
+		"51": null,
+		"54": false,
+		"56": 126,
+		"57": 124,
+		"58": null,
+		"59": false,
+		"60": false,
+		"61": null,
+		"63": null,
+		"64": null,
+		"65": 128,
+		"66": 120,
+		"67": null,
+		"68": null,
+		"69": false,
+		"70": null,
+		"71": null,
+		"72": null,
+		"73": false,
+		"74": null,
+		"75": false,
+		"76": 121,
+		"77": false,
+		"78": null,
+		"79": null,
+		"80": null,
+		"81": false,
+		"82": null,
+		"83": null,
+		"84": null,
+		"85": 125,
+		"86": 127,
+		"87": null,
+		"88": null,
+		"89": null,
+		"90": null,
+		"91": 122,
+		"92": null
 	}
 }
