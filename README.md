@@ -83,7 +83,7 @@ This repository correlates species between [**A Field Guide to elePHPants**](htt
 | `2024-08-26-purple-sentry` Sentry Sentry | `82` Sentaur (1st Edition) Sentry sentry.io<br>`89` Sentaur (2nd Edition) Sentry sentry.io |
 | `2025-01-21-brown-phptek` php[tek] php[tek] Conference | `83` Tony php[tek] 2025 Tony |
 | `2025-03-21-purple-datadog` Datadog Datadog | `84` Doggy Datadog datadog.com |
-| `2025-09-02-yellow-franekphp` FrankenPHP Les-Tilleuls.coop | `85` Le Monstre Les-Tilleuls.coop frankenphp.dev<br>`125` Large Le Monstre Les-Tilleuls.coop frankenphp.dev |
+| `2025-09-02-green-franekphp` FrankenPHP Les-Tilleuls.coop | `85` Le Monstre Les-Tilleuls.coop frankenphp.dev<br>`125` Large Le Monstre Les-Tilleuls.coop frankenphp.dev |
 | `2026-05-19-yellow-phptek` php[tek] php[tek] Conference | `88` Holly php[tek] 2026 Holly |
 | `2026-04-19-laraveldk` Laravel Denmark Laravel Denmark | `87` Eric the Red Laravel Denmark laraveldk.org |
 | `2026-blue-tideways` Tideways Tideways | `86` Moni Tideways GmbH tideways.com<br>`127` Large Moni Tideways GmbH tideways.com |
